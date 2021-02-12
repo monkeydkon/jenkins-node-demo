@@ -19,7 +19,7 @@ app.use(cors({
 app.use(bodyParser.json())
 
 app.get('/', (req,res,next) => {
-    res.status(200).json({msg: 'You just got /, nice!'})
+    res.status(200).json({msg: 'You just got /, asdasd!'})
 })
 
 app.use((error, req, res, next) => {
